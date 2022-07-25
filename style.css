@@ -77,7 +77,7 @@ button {
     justify-content: space-between;
     gap: 80px;
     align-items: center;
-    margin: 8px 150px;
+    padding: 8px 150px;
     background-color: 3882f6;
 }
 
@@ -116,4 +116,27 @@ button {
 .icon-text {
     text-align: center;
     color: #1F2937;
+}
+
+.part-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 8px 480px;
+    gap: 5px;
+    height: 210px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote-ref {
+    align-self: flex-end;
+    content: #1F2937;
+    font-weight: bolder;    
 }
