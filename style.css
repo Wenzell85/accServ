@@ -140,3 +140,47 @@ button {
     content: #1F2937;
     font-weight: bolder;    
 }
+
+.part-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 150px; 
+    height: 210px;  
+}
+
+.call-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding: 35px 250px;
+}
+
+.text-one, .text-two {
+    color: #F9FAF8;
+}
+
+.text-one {
+    font-weight: bolder;
+}
+
+.call-butt {
+    border: 1px solid #ffff;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 50px;
+}
+
+.copy {
+ 
+    color: #F9FAF8;
+    font-size: smaller;
+}
